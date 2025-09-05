@@ -3,13 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-.quadrado{
+.quadrados{
     width: 100vw;
     height: 200px;
-    background-color: deepskyblue;
+    background-color: rgb(118, 0, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quadrados div{
+    width: 10%;
+    height: 80px;
+    background-color: lightslategrey;
+    border-width: 50px;
+    
 }
 .circulos{
     width: 100vw;
     height: 200px;
-    background-color: midnightblue;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.circulos div{
+    width: 10%;
+    height: 80px;
+    background-color: bisque;
+    border-radius: 50%;
 }
