@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.quadrado{
+    width: 100vw;
+    height: 200px;
+    background-color: deepskyblue;
+}
+.circulos{
+    width: 100vw;
+    height: 200px;
+    background-color: midnightblue;
+}
